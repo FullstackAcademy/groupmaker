@@ -153,7 +153,7 @@
     "no-shadow": [1, {
       "builtinGlobals": true,
       "hoist": "functions",
-      "allow": ["done", "cb", "resolve", "reject"]
+      "allow": ["done", "cb", "resolve", "reject", "name"]
     }],
     "no-undef-init": 1,
     "no-undef": [2, {
