@@ -160,7 +160,7 @@
       "typeof": false
     }],
     "no-undefined": 0,
-    "no-unused-vars": [0, {
+    "no-unused-vars": [1, {
       "vars": "local",
       "args": "after-used"
     }],
