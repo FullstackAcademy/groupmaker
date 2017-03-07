@@ -1,7 +1,7 @@
 'use strict';
 
 const api = require('./api');
-const { Router } = require('axpress');
+const { Router } = require('express');
 
 const router = module.exports = Router();
 
