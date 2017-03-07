@@ -21,6 +21,8 @@ const db = module.exports = new Sequelize(dbUrl, {
   }
 });
 
+require('./models');
+
 function sync(retries = 0, maxRetries = 5, force = isTesting) {
   return db.sync({force})
     .then(() => debugDb(`Synced models to db ${dbUrl}`))
